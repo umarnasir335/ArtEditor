@@ -7,6 +7,11 @@ const offCell = {
   color: '#000000',
 };
 
+const onCell = {
+  on: true,
+  color: 'red'
+}
+
 const Grid = ({ currentColor, cells, setCells }) => {
   const classes = useStyles();
   const updateCell = (i) => (e) => {
