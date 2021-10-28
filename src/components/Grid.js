@@ -7,6 +7,7 @@ const offCell = {
   color: '#000000',
 };
 
+//edit further for cell color for false
 const onCell = {
   on: true,
   color: 'red'
