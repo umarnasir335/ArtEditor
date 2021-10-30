@@ -24,5 +24,13 @@ export default createUseStyles({
     border: '2 px solid black',
     height: '15vmin',
     width: '80vmin'
+  },
+
+  flexrow:{
+    display: 'flex',
+    border: '2 px solid dashed',
+    height: '12vmin',
+    width: '75vmin',
+    transform: 'scale(1.1)',
   }
 });
